@@ -6,8 +6,11 @@ decisions. Accern monitors 1 billion websites in real time for actionable
 news on multi-asset classes and creates trading alerts and analytics derived
 from relevant finance-related news for institutional investors.
 
-In this repository we provide free to use sample datasets under the
-[GPL](LICENSE):
+In this repository we provide free to use sample datasets:
 
 - [Aggregated Daily](aggregated-daily/):
     [raw data](https://raw.githubusercontent.com/Accern/academic-datasets/master/aggregated-daily/data.csv)
+
+The datasets provided here are under the [GPL](LICENSE).
+For larger samples or firehose access,
+please [contact us](http://www.accern.com/contact/).
