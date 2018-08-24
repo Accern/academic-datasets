@@ -1,0 +1,19 @@
+# Sample with Daily Aggregation
+
+Accern data is collected through news or social media websites and computes
+numerical metrics like sentiment, relevance, republication (i.e., impact), etc.
+on the text data. One row in the CSV contains the date, ticker (i.e., name of
+the stock), pricing data of the previous date, volatility data (using the
+volatility index [VIX](https://en.wikipedia.org/wiki/VIX))
+of the previous date, the target (relative change of the
+price from today to tomorrow), as well as, Accern features aggregated using
+functions such as mean, min, max, etc.
+
+The data is aggregated for price prediction on market open. That is, aggregates
+begin 9.30am EST of the previous day until 9.30am EST of the current day
+(so it would be possible to utilize predictions for executing orders just after
+the market opens). The data set does not contain any accidental or intentional
+leak of information from the future at any point (except in the target column).
+For the most basic classification prediction task the target column needs only
+to be converted into binary form such that values larger than zero mean
+"stock price going up over the next day" and the opposite for other values.
