@@ -9,4 +9,5 @@ from relevant finance-related news for institutional investors.
 In this repository we provide free to use sample datasets under the
 [GPL](LICENSE):
 
-- [Aggregated Daily](aggregated-daily/): [data](aggregated-daily/data.csv)
+- [Aggregated Daily](aggregated-daily/):
+    [raw data](https://raw.githubusercontent.com/Accern/academic-datasets/master/aggregated-daily/data.csv)
