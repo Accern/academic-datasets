@@ -22,7 +22,7 @@ to be converted into binary form such that values larger than zero mean
 | :---   | :---   |
 | date | The date of the row. |
 | ticker | The ticker symbol of the stock. |
-| target | The target value (price change from today's open price to next day's open price). |
+| target | The target value (price change from today's open price to next market day's open price). |
 | prev_day_open | The open price on the previous market day. |
 | prev_day_close | The close price on the previous market day. |
 | prev_day_high | The highest price on the previous market day. |
@@ -31,8 +31,8 @@ to be converted into binary form such that values larger than zero mean
 | prev_day_vix_close | The close price of VIX on the previous market day. |
 | prev_day_vix_high | The highest price of VIX on the previous market day. |
 | prev_day_vix_low | The lowest price of VIX on the previous market day. |
-| count | The number of events collected by Accern from yesterday 9:30am until today 9:30am. |
-| &ast;_sum | The sum of the values of the given feature &ast; from yesterday 9:30am until today 9:30am. |
-| &ast;_min | The minimum value of the given feature &ast; from yesterday 9:30am until today 9:30am. |
-| &ast;_max | The maximum value of the given feature &ast; from yesterday 9:30am until today 9:30am. |
-| &ast;_avg | The average value of the given feature &ast; from yesterday 9:30am until today 9:30am. |
+| count | The number of events collected by Accern from previous market day 9:30am until today 9:30am. |
+| &ast;_sum | The sum of the values of the given feature &ast; from previous market day 9:30am until today 9:30am. |
+| &ast;_min | The minimum value of the given feature &ast; from previous market day 9:30am until today 9:30am. |
+| &ast;_max | The maximum value of the given feature &ast; from previous market day 9:30am until today 9:30am. |
+| &ast;_avg | The average value of the given feature &ast; from previous market day 9:30am until today 9:30am. |
