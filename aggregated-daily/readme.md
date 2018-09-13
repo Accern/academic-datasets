@@ -19,7 +19,7 @@ to be converted into binary form such that values larger than zero mean
 "stock price going up over the next day" and the opposite for other values.
 
 | column | description |
-| :---   |   ---: |
+| :---   | :---   |
 | date | The date of the row. |
 | ticker | The ticker symbol of the stock. |
 | target | The target value (price change from today's open price to next day's open price). |
