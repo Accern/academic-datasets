@@ -34,3 +34,6 @@ columns in order to avoid label leakage.
 | xh_&ast;_min | The minimum value of the given feature &ast; in the current time slice. |
 | xh_&ast;_max | The maximum value of the given feature &ast; in the current time slice. |
 | xh_&ast;_avg | The average value of the given feature &ast; in the current time slice. |
+
+Disclaimer: This data is for research purposes only, provided 'as is',
+and solely for informational purposes, not for trading purposes or advice.

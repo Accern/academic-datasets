@@ -36,3 +36,6 @@ to be converted into binary form such that values larger than zero mean
 | &ast;_min | The minimum value of the given feature &ast; from previous market day 9:30am until today 9:30am. |
 | &ast;_max | The maximum value of the given feature &ast; from previous market day 9:30am until today 9:30am. |
 | &ast;_avg | The average value of the given feature &ast; from previous market day 9:30am until today 9:30am. |
+
+Disclaimer: This data is for research purposes only, provided 'as is',
+and solely for informational purposes, not for trading purposes or advice.

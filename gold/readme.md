@@ -11,3 +11,6 @@ Predicting gold price using complementary data streams.
 | djia_adj_close | Dow Jones Adjusted Close |
 | :---   | :---   |
 | gold_price | Regression Target |
+
+Disclaimer: This data is for research purposes only, provided 'as is',
+and solely for informational purposes, not for trading purposes or advice.
