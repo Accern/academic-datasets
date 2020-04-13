@@ -2,6 +2,8 @@
 
 Predicting gold price using complementary data streams.
 
+*The target column needs to be shifted by at least one row to not leak the label*
+
 | column | description |
 | :---   | :---   |
 | date | The date |
