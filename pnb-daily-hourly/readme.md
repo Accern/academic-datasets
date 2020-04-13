@@ -1,4 +1,4 @@
-# Public News & Blogs Sample with Daily Aggregation
+# Public News & Blogs Sample with Daily / Hourly Aggregation
 
 Accern data is collected through news or social media websites and computes
 numerical metrics like sentiment, relevance, republication (i.e., impact), etc.
@@ -22,13 +22,13 @@ columns in order to avoid label leakage.
 | date | The date of the row. |
 | ticker | The ticker symbol of the stock. |
 | :---   | :---   |
-| | Make sure to remove the other target columns to avoid label leaks. |
+| | _Make sure to remove the other target columns to avoid label leaks._ |
 | open | The price at market open. |
 | next_open | The price at market open of the following day. |
 | oo | The price change between today's open and the following open. |
 | oo | The binary price change between today's open and the following open. |
 | :---   | :---   |
-| | All columns are prefixed with the number of hours before market open. 1h_count is the event count for the time span 8.00am-9.00am, 2h_count the time span 7.00am-8.00am, etc. |
+| | _All columns are prefixed with the number of hours before market open. 1h_count is the event count for the time span 8.00am-9.00am, 2h_count the time span 7.00am-8.00am, etc._ |
 | xh_count | The number of events collected by Accern in the current time slice. |
 | xh_&ast;_sum | The sum of the values of the given feature &ast; in the current time slice. |
 | xh_&ast;_min | The minimum value of the given feature &ast; in the current time slice. |
