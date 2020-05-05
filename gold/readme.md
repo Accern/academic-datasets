@@ -11,8 +11,9 @@ Predicting gold price using complementary data streams.
 | effective_federal_funds_rate | Effective Federal Funds Rate |
 | cpi_index | Consumer Price Index |
 | djia_adj_close | Dow Jones Adjusted Close |
+| gold_price | The current gold price (value of previous target) |
 | :---   | :---   |
-| gold_price | Regression Target |
+| target | Regression Target |
 
 Disclaimer: This data is for research purposes only, provided 'as is',
 and solely for informational purposes, not for trading purposes or advice.
