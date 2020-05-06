@@ -8,8 +8,9 @@ from relevant finance-related news for institutional investors.
 
 In this repository we provide free to use sample datasets:
 
-- [Aggregated Daily](aggregated-daily/):
-    [raw data](https://raw.githubusercontent.com/Accern/academic-datasets/master/aggregated-daily/data.csv)
+- [Public News & Blog Data Daily & Hourly](pnb-daily-hourly/)
+- [Predicting Gold Price](gold/)
+- [Aggregated Daily](aggregated-daily/)
 
 The datasets provided here are under the [GPL](LICENSE).
 For larger samples or firehose access,
