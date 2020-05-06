@@ -1,5 +1,7 @@
 # Sample with Daily Aggregation
 
+For a cleaner version of this data, please refer to [the Public News & Blogs Data Set](../pnb-daily-hourly)
+
 Accern data is collected through news or social media websites and computes
 numerical metrics like sentiment, relevance, republication (i.e., impact), etc.
 on the text data. One row in the CSV contains the date, ticker (i.e., name of
