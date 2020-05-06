@@ -15,5 +15,8 @@ Predicting gold price using complementary data streams.
 | :---   | :---   |
 | target | Regression Target |
 
+The file `gold_price_target.csv` excludes the `gold_price` column but is
+otherwise the same.
+
 Disclaimer: This data is for research purposes only, provided 'as is',
 and solely for informational purposes, not for trading purposes or advice.

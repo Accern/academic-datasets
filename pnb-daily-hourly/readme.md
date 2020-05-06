@@ -27,8 +27,8 @@ columns in order to avoid label leakage.
 | | _Make sure to remove the other target columns to avoid label leaks._ |
 | open | The price at market open. |
 | next_open | The price at market open of the following day. |
-| oo | The price change between today's open and the following open. |
-| oo | The binary price change between today's open and the following open. |
+| oo | The price change between today's open and the following open (`(next_open - open) / open`). |
+| oo_binary | The binary price change between today's open and the following open (`1` or `-1`; `-1` for no change). |
 | :---   | :---   |
 | | _All columns are prefixed with the number of hours before market open. `1h_count` is the event count for the time span 8.00am-9.00am, `2h_count` the time span 7.00am-8.00am, etc._ |
 | xh_count | The number of events collected by Accern in the current time slice. |
@@ -47,8 +47,8 @@ columns in order to avoid label leakage.
 | | _Make sure to remove the other target columns to avoid label leaks._ |
 | open | The price at market open. |
 | next_open | The price at market open of the following day. |
-| oo | The price change between today's open and the following open. |
-| oo | The binary price change between today's open and the following open. |
+| oo | The price change between today's open and the following open (`(next_open - open) / open`). |
+| oo_binary | The binary price change between today's open and the following open (`1` or `-1`; `-1` for no change). |
 | :---   | :---   |
 | | _All columns are aggregated from 9.00am of the previous day until 8.00am of the current day_ |
 | count | The number of events collected by Accern in the last 24 hours. |
@@ -56,6 +56,21 @@ columns in order to avoid label leakage.
 | &ast;_min | The minimum value of the given feature &ast; in the last 24 hours. |
 | &ast;_max | The maximum value of the given feature &ast; in the last 24 hours. |
 | &ast;_avg | The average value of the given feature &ast; in the last 24 hours. |
+
+## pnb1d_small.csv.zip:
+
+`PNB 1d small` contains two files with a pre-selected subset of predictive features.
+`pnb1d_small.csv` is a feature set for `oo_binary` as target and
+`pnb1d_small_oo.csv` is a feature set for `oo` as target.
+The files are derived from `pnb1d.csv` on the following subset:
+Ticker must be one of `CAT, F, GOOG, MCO, NVDA, PFE, TROW, UAL` and the date
+must be on or before `2014-04-17`.
+It is recommended to use this subset for training predictive models as well,
+to avoid accidentally leaking information via the feature set.
+Features in the file are ordered by their feature importance computed on the
+above subset using a sklearn RandomForest model.
+Only the top 20 features are included. If fewer features are desired, features
+should be dropped starting at the end of the feature list.
 
 Disclaimer: This data is for research purposes only, provided 'as is',
 and solely for informational purposes, not for trading purposes or advice.
