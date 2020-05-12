@@ -14,7 +14,7 @@ In this repository we provide free to use sample datasets:
 
 The datasets provided here are under the [GPL](LICENSE).
 For larger samples or firehose access,
-please [contact us](http://www.accern.com/contact/).
+please [contact us](https://www.accern.com/contact).
 
 Disclaimer: All data is for research purposes only, provided 'as is',
 and solely for informational purposes, not for trading purposes or advice.
